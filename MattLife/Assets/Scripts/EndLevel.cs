@@ -46,10 +46,10 @@ public class EndLevel : MonoBehaviour
 		{
 			playerScript.SetDirectionalInput(Vector2.right);
 		}
-		else if (player.transform.position.x > board.transform.position.x)
+		/*else if (player.transform.position.x > board.transform.position.x)
 		{
 			playerScript.SetDirectionalInput(Vector2.left);
-		}
+		}*/
 		else
 		{
 			animationStarted = false;

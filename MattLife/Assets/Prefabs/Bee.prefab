@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 518667432233727002}
   - component: {fileID: 518667432233726992}
   - component: {fileID: 4110469940842736481}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Bee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -238,5 +238,5 @@ SortingGroup:
   m_GameObject: {fileID: 518667432233727003}
   m_Enabled: 1
   m_SortingLayerID: -291169713
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: -5

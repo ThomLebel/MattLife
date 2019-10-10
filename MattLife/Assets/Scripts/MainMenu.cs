@@ -74,7 +74,7 @@ public class MainMenu : MonoBehaviour
 			Cursor.visible = false;
 		}
 
-		if (Input.GetButtonDown("Cancel"))
+		if (Input.GetButtonDown("Cancel") || Input.GetButtonDown("Start"))
 		{
 			if (state == State.galerie)
 			{

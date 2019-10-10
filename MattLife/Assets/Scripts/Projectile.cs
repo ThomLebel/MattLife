@@ -34,14 +34,19 @@ public class Projectile : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (!collision.transform.CompareTag("Enemy"))
+		if (collision.transform.CompareTag("Enemy"))
 		{
-			return;
+			collision.transform.GetComponent<Enemy>().Kill();
+			StopCoroutine(coroutine);
+			KillProjectile();
 		}
 
-		collision.transform.GetComponent<Enemy>().Kill();
-		StopCoroutine(coroutine);
-		KillProjectile();
+		if (collision.transform.CompareTag("DivingEnemy"))
+		{
+			collision.transform.GetComponent<DivingEnemy>().Kill();
+			StopCoroutine(coroutine);
+			KillProjectile();
+		}
 	}
 
 	IEnumerator WaitAndDie()

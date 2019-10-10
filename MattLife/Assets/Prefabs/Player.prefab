@@ -130,7 +130,7 @@ MonoBehaviour:
   minJumpHeight: 1
   timeToJumpApex: 0.4
   accelerationTimeAirborne: 0.5
-  accelerationTimeGrounded: 0.2
+  accelerationTimeGrounded: 0.05
   wallSlideSpeedMax: 5
   wallStickTime: 0.25
   bounceTakeOff: 7
@@ -161,6 +161,7 @@ MonoBehaviour:
   - {fileID: 5554947572789986834}
   fireRate: 0.5
   fallingGravity: 3.5
+  maxJumpVelocity: 0
   shooting: 0
   inAir: 0
   canBounce: 0
@@ -360,16 +361,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 239153052866665222, guid: 82fbf2bc8eb90d9439e9a075c94af6e9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0369997
-      objectReference: {fileID: 0}
-    - target: {fileID: 7022469832158006634, guid: 82fbf2bc8eb90d9439e9a075c94af6e9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.14
-      objectReference: {fileID: 0}
     - target: {fileID: 1986650719280555206, guid: 82fbf2bc8eb90d9439e9a075c94af6e9,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -379,6 +370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.162
+      objectReference: {fileID: 0}
+    - target: {fileID: 239153052866665222, guid: 82fbf2bc8eb90d9439e9a075c94af6e9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0369997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022469832158006634, guid: 82fbf2bc8eb90d9439e9a075c94af6e9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82fbf2bc8eb90d9439e9a075c94af6e9, type: 3}
@@ -557,15 +558,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 239153052866665222, guid: 41612d151fa0e5e48a1ea1a5168e0561,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.02999973
-      objectReference: {fileID: 0}
     - target: {fileID: 1986650719280555206, guid: 41612d151fa0e5e48a1ea1a5168e0561,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.2509766
+      objectReference: {fileID: 0}
+    - target: {fileID: 239153052866665222, guid: 41612d151fa0e5e48a1ea1a5168e0561,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02999973
       objectReference: {fileID: 0}
     - target: {fileID: 5643188590557608293, guid: 41612d151fa0e5e48a1ea1a5168e0561,
         type: 3}
@@ -653,15 +654,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 239153052866665222, guid: 8cd95a2dc6396bf4f8b2e9e5d0593157,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.02999973
-      objectReference: {fileID: 0}
     - target: {fileID: 1986650719280555206, guid: 8cd95a2dc6396bf4f8b2e9e5d0593157,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.2509766
+      objectReference: {fileID: 0}
+    - target: {fileID: 239153052866665222, guid: 8cd95a2dc6396bf4f8b2e9e5d0593157,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02999973
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd95a2dc6396bf4f8b2e9e5d0593157, type: 3}

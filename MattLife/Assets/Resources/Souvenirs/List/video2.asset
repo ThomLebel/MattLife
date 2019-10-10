@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: video2
   m_EditorClassIdentifier: 
   id: 16
-  photo: {fileID: 21300000, guid: 16ccc88f495af2045a7cb8091b682666, type: 3}
-  video: {fileID: 32900000, guid: 32eda9203373dfa4ebef142f1881ee79, type: 3}
+  photo: {fileID: 21300000, guid: 531c9bfc49381334081e1ea0a7703f3d, type: 3}
+  video: {fileID: 32900000, guid: 729151c729faedc42b141b80e7538334, type: 3}
   revealed: 0

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameMaster : MonoBehaviour
 {
@@ -15,9 +16,9 @@ public class GameMaster : MonoBehaviour
 	public GameObject galerie;
 	public GameObject gameUI;
 	public GameObject gameOverUI;
-	public Text lifeText;
-	public Text goldText;
-	public Text scoreText;
+	public TextMeshProUGUI lifeText;
+	public TextMeshProUGUI goldText;
+	public TextMeshProUGUI scoreText;
 
 	//public string state = "";
 	public States state;
@@ -38,6 +39,9 @@ public class GameMaster : MonoBehaviour
 	private Animator screenRevealAnimator;
 	private StreamSouvenir streamSouvenir;
 
+	private string[] gameOverPhrase = new string[] { "You shall not pass!", "You failed, Noob.", "So what? Gonna cry?", "Man up, big baby!" };
+	private TextMeshProUGUI gameOverText;
+
 	static public GameMaster Instance;
 
     // Start is called before the first frame update
@@ -53,24 +57,13 @@ public class GameMaster : MonoBehaviour
 
 		player = GameObject.FindGameObjectWithTag("Player");
 		playerScript = player.GetComponent<Player>();
-		player.GetComponent<PlayerInput>().enabled = true;
-
-		//playerScript.SwapBody(levelIndex);
-		playerScript.doubleJumpPower = doubleJumpActive;
-		playerScript.shootPower = shootingActive;
-
 		player.transform.position = playerSpawnPosition;
-
-		if (playerScript.playerLife <= 0)
-		{
-			playerScript.playerLife = baseLife;
-		}
-		lifeText.text = playerScript.playerLife.ToString();
-		goldText.text = playerScript.playerGold.ToString();
-		scoreText.text = playerScript.playerScore.ToString();
+		ResetPlayer();
 
 		AudioManager.instance.PlayMusic(musicName);
 		AudioManager.instance.FadeFromMusic(musicName, 1.5f);
+
+		gameOverText = gameOverUI.transform.Find("Text (TMP)").GetComponent<TextMeshProUGUI>();
 
 		state = States.game;
 	}
@@ -95,36 +88,60 @@ public class GameMaster : MonoBehaviour
 			Cursor.visible = false;
 		}
 
-		if (Input.GetButtonDown("Cancel"))
+		if (Input.GetButtonDown("Start"))
 		{
 			if (state == States.game)
 			{
 				PauseGame();
 			}
-			else if (state == States.souvenirs)
+		}
+		if (Input.GetButtonDown("Cancel") || Input.GetButtonDown("Start"))
+		{
+			if (state == States.souvenirs)
 			{
-				streamSouvenir.StopStream();
+				if (streamSouvenir.showTutorial)
+				{
+					streamSouvenir.HideTutorial();
+				}
+				else
+				{
+					streamSouvenir.StopStream();
+				}
 			}
 			else if (state == States.galerie)
 			{
 				CloseGalerie();
-			}else if (state == States.pause)
+			}
+			else if (state == States.pause)
 			{
 				ResumeGame();
 			}
 		}
-		if (Input.GetButtonDown("Jump") && state == States.souvenirs)
-		{
-			if (streamSouvenir.showTutorial)
-			{
-				streamSouvenir.HideTutorial();
-			}
-			else
-			{
-				streamSouvenir.StopStream();
-			}
-		}
     }
+
+	public void ResetPlayer()
+	{
+		player.GetComponent<PlayerInput>().enabled = true;
+
+		playerScript.SwapBody(levelIndex);
+		playerScript.doubleJumpPower = doubleJumpActive;
+		playerScript.shootPower = shootingActive;
+
+		if (playerScript.playerLife <= 0)
+		{
+			playerScript.playerLife = baseLife;
+		}
+
+		lifeText.text = playerScript.playerLife.ToString();
+		scoreText.text = playerScript.playerScore.ToString();
+
+		string zero = "";
+		if (playerScript.playerGold < 10)
+		{
+			zero = "0";
+		}
+		goldText.text = zero + playerScript.playerGold.ToString();
+	}
 
 	public void DisplayGalerie()
 	{
@@ -154,6 +171,7 @@ public class GameMaster : MonoBehaviour
 		Sound m = Array.Find(AudioManager.instance.musics, music => music.name == musicName);
 		AudioManager.instance.FadeToMusic(m.name, 1f, m.volume);
 		menuPause.SetActive(false);
+		gameOverUI.SetActive(false);
 		Time.timeScale = 1;
 		state = States.game;
 	}
@@ -196,16 +214,6 @@ public class GameMaster : MonoBehaviour
 		scoreText.text = playerScript. playerScore.ToString();
 	}
 
-
-	IEnumerator OnCompleteScreenReavealEndAnimation()
-	{
-		while (screenRevealAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.8f)
-			yield return null;
-
-		// TODO: Do something when animation did complete
-		state = States.game;
-	}
-
 	public void GameOver()
 	{
 		state = States.gameOver;
@@ -214,15 +222,18 @@ public class GameMaster : MonoBehaviour
 		AudioManager.instance.FadeToMusic(m.name, 1f, m.gamePausedVolume);
 		AudioManager.instance.PlaySound("GameOver");
 
+		int randText = UnityEngine.Random.Range(0, gameOverPhrase.Length);
+		gameOverText.text = gameOverPhrase[randText];
 		gameOverUI.SetActive(true);
 		gameOverUI.GetComponent<Animator>().SetTrigger("reveal");
 	}
 
 	public void RestartLevel()
 	{
-		Scene scene = SceneManager.GetActiveScene();
-		SceneManager.LoadSceneAsync(scene.name);
-		Time.timeScale = 1f;
+		ResetPlayer();
+		playerScript.Fall();
+		playerScript.ActivateInvulnerability();
+		ResumeGame();
 	}
 
 	public void QuitGame()
@@ -245,6 +256,15 @@ public class GameMaster : MonoBehaviour
 		yield return new WaitForSecondsRealtime(1f);
 
 		SceneManager.LoadSceneAsync("MainMenu");
+	}
+
+	IEnumerator OnCompleteScreenReavealEndAnimation()
+	{
+		while (screenRevealAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.8f)
+			yield return null;
+
+		// TODO: Do something when animation did complete
+		state = States.game;
 	}
 
 	public enum States
