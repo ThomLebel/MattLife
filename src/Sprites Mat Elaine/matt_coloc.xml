@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f04089cdc25c9eedbdc3392593f7fb82:3015c8ffbd6405eae7501eab3aaa8957:502eac513866da6f82df9144243c4cd0$ -->
+<!--Format:
+n  => name of the SubTexture
+x  => SubTexture x pos in texture
+y  => SubTexture y pos in texture
+w  => SubTexture width (may be trimmed)
+h  => SubTexture height (may be trimmed)
+pX => x pos of the pivot point (relative to SubTexture width)
+pY => y pos of the pivot point (relative to SubTexture height)
+oX => SubTexture's x-corner offset (only available if trimmed)
+oY => SubTexture's y-corner offset (only available if trimmed)
+oW => SubTexture's original width (only available if trimmed)
+oH => SubTexture's original height (only available if trimmed)
+r => 'y' only set if SubTexture is rotated
+with polygon mode enabled:
+vertices   => points in SubTexture coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => SubTexture triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="matt_coloc.png" width="247" height="540">
+    <SubTexture name="Bras droit coloc.png" x="142" y="68" width="78" height="88"/>
+    <SubTexture name="Bras gauche coloc.png" x="68" y="68" width="74" height="71"/>
+    <SubTexture name="Jambe Droite coloc.png" x="58" y="0" width="61" height="62"/>
+    <SubTexture name="Jambe Gauche coloc.png" x="0" y="68" width="68" height="69"/>
+    <SubTexture name="Main droite coloc.png" x="0" y="0" width="58" height="57"/>
+    <SubTexture name="Main Gauche Coloc.png" x="119" y="0" width="70" height="68"/>
+    <SubTexture name="tete coloc.png" x="0" y="297" width="247" height="243"/>
+    <SubTexture name="Torse Coloc.png" x="0" y="156" width="203" height="141"/>
+</TextureAtlas>

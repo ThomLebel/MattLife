@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Undefined
+  - Enemy
+  - Collectible
+  - Block
+  - JumpThrough
+  - SouvenirsHolder
+  - SouvenirBlock
+  - ScreenReveal
+  - Obstacle
+  - GameUI
+  - DivingEnemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Floor
+  - JumpThrough
+  - Wall
+  - Player
+  - Background
+  - Blocks
+  - Enemies
+  - MovingShells
+  - Projectiles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1972377309
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: body
+    uniqueID: 2544823257
+    locked: 0
+  - name: Characters
+    uniqueID: 4003797583
+    locked: 0
+  - name: Foreground
+    uniqueID: 2294582155
+    locked: 0

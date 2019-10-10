@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4437142582702258295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4437142582702258297}
+  - component: {fileID: 4437142582702258296}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4437142582702258297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4437142582702258295}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4437142582702258296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4437142582702258295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c90ed28991f7c4987ef0edcda3ff7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 721f1c5ceba88ed41b796f3396038d20, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerLand
+    clip: {fileID: 8300000, guid: 5db2076b10fa5e648b7353762346b40e, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerHit1
+    clip: {fileID: 8300000, guid: 8666d3215b9ced9408532ac5472f9363, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerHit2
+    clip: {fileID: 8300000, guid: c09d40fe209c61045995f2de33c3568b, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: CoinSound
+    clip: {fileID: 8300000, guid: 442be35c21477f543a7f95e53c28debb, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SouvenirRevealed
+    clip: {fileID: 8300000, guid: 58d9aef7bb918b14cb8b2e98d34b4b10, type: 3}
+    volume: 1
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: MouseHit
+    clip: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
+    volume: 0.5
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SnailHit
+    clip: {fileID: 8300000, guid: cf6c0e7fbef9449c98a0cdb5ea0c4d9f, type: 3}
+    volume: 0.5
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BeeHit
+    clip: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+    volume: 0.5
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: FishHit
+    clip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+    volume: 0.5
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 36d3677fcccbfb745a06daece19458db, type: 3}
+    volume: 0.5
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerWalk
+    clip: {fileID: 8300000, guid: 948e1febaa44a534080927ddeab6836f, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerTransform
+    clip: {fileID: 8300000, guid: e04a8ef9c5242e24f8f309abf1d5ec69, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
+    volume: 0.15
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  musics:
+  - name: mainMenuMusic
+    clip: {fileID: 8300000, guid: 7fca0249ddb41914b9d6751954f2cca4, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: musicLevel1
+    clip: {fileID: 8300000, guid: ebe259abd1fdad74a81b842700cb134d, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.05
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: musicLevel2
+    clip: {fileID: 8300000, guid: 1fb147bfbc8445449b7376ce0455aea0, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.05
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: musicLevel3
+    clip: {fileID: 8300000, guid: acc04092c9512ed4f83cc9e45829548e, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.05
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: musicLevel4
+    clip: {fileID: 8300000, guid: 235ecb75c5a44284c936bb63645af16d, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.05
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: endMusic
+    clip: {fileID: 8300000, guid: de026935b70e28849afd673fb695cad0, type: 3}
+    volume: 0.25
+    pitch: 1
+    gamePausedVolume: 0.15
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  soundsMuted: 0
+  musicsMuted: 0

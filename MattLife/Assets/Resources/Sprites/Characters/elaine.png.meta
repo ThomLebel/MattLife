@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 8c60f12178895ee479abe45a5ead5def
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8626368536046857531
+    second: ERROR
+  - first:
+      213: 3190137370944827483
+    second: Bras Gauche.png
+  - first:
+      213: -3938629871027297666
+    second: Bras droit.png
+  - first:
+      213: -959874422612063274
+    second: corps elaine.png
+  - first:
+      213: 40646536410874256
+    second: Jambe Gauche.png
+  - first:
+      213: -6921954996636201746
+    second: Jambe Droite.png
+  - first:
+      213: 8337832571592310848
+    second: Main gauche.png
+  - first:
+      213: -901931148486316789
+    second: Main Droite.png
+  - first:
+      213: -7446387691844442325
+    second: tete elaine.png
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bras Gauche.png
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 374
+        width: 62
+        height: 71
+      alignment: 9
+      pivot: {x: 0.3374139, y: 0.9056474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bd86f865d0ea84cbe7d9f47122d7c8
+      internalID: 3190137370944827483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras droit.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 58
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6489708, y: 0.90272546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6779985fbcf3a544eb8c98df525fdff1
+      internalID: -3938629871027297666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corps elaine.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae56903172cc8e64eb603fc95fe97043
+      internalID: -959874422612063274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Gauche.png
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 445
+        width: 54
+        height: 55
+      alignment: 9
+      pivot: {x: 0.45999852, y: 0.9058322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30153955f82d1a34e9889a7873fe2056
+      internalID: 40646536410874256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Droite.png
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 384
+        width: 60
+        height: 61
+      alignment: 9
+      pivot: {x: 0.56000215, y: 0.88952136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c494736dd4bf2ea4fb18ae1c53a4a997
+      internalID: -6921954996636201746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main gauche.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 53
+        height: 52
+      alignment: 9
+      pivot: {x: 0.25546318, y: 0.77693236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c03c8fcb1522e4b95f38f692d8e061
+      internalID: 8337832571592310848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Droite.png
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 447
+        width: 54
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6200043, y: 0.8396342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f42b5172ed6bca47ad85e012dd59964
+      internalID: -901931148486316789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tete elaine.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 227
+      alignment: 9
+      pivot: {x: 0.57535166, y: 0.2779656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9765eef2cef47eb4a8f3cea5f1e17680
+      internalID: -7446387691844442325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

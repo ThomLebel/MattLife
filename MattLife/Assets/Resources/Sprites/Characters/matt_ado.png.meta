@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: e774fab0aff7db04a8338d44a983f9c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8626368536046857531
+    second: ERROR
+  - first:
+      213: -2040361922686745582
+    second: Bras gauche.png
+  - first:
+      213: 1970104680351978081
+    second: Bras droit.png
+  - first:
+      213: 5073825210234500390
+    second: Jambe Gauche.png
+  - first:
+      213: 6103393669919194369
+    second: Jambe Droite.png
+  - first:
+      213: 8337832571592310848
+    second: Main gauche.png
+  - first:
+      213: -901931148486316789
+    second: Main Droite.png
+  - first:
+      213: -3973839956574696990
+    second: tete2.png
+  - first:
+      213: -1901335869934289566
+    second: Torse Ado.png
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 288
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bras gauche.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351.18887
+        width: 84.6037
+        height: 94.81113
+      alignment: 9
+      pivot: {x: 0.25413924, y: 0.9336008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e3405b2a3011b40aa7782f19d6982a
+      internalID: -2040361922686745582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bras droit.png
+      rect:
+        serializedVersion: 2
+        x: 75.588135
+        y: 375.67258
+        width: 71
+        height: 70.32742
+      alignment: 9
+      pivot: {x: 0.60587394, y: 0.93153274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f17f3e0576c45d47a0203eff860458c
+      internalID: 1970104680351978081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Gauche.png
+      rect:
+        serializedVersion: 2
+        x: 139.06853
+        y: 380.18887
+        width: 71
+        height: 65.81113
+      alignment: 9
+      pivot: {x: 0.47187653, y: 0.8966663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78387b0e7f774a748a246319922249f6
+      internalID: 5073825210234500390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jambe Droite.png
+      rect:
+        serializedVersion: 2
+        x: 200.12035
+        y: 372.46487
+        width: 77.000015
+        height: 73.535126
+      alignment: 9
+      pivot: {x: 0.5321811, y: 0.9316073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55b877787ba5774881e3d612431cbc9
+      internalID: 6103393669919194369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main gauche.png
+      rect:
+        serializedVersion: 2
+        x: 267.82712
+        y: 383.413
+        width: 70
+        height: 62.587006
+      alignment: 9
+      pivot: {x: 0.3327724, y: 0.8741181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde0c73ef233de5489be8b3cb26b0289
+      internalID: 8337832571592310848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Droite.png
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 381
+        width: 71
+        height: 65
+      alignment: 9
+      pivot: {x: 0.59748256, y: 0.85913366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8d08b6b21e9f34bbfc987b6b3d8748
+      internalID: -901931148486316789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tete2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 269
+        height: 354.948
+      alignment: 9
+      pivot: {x: 0.5363684, y: 0.28277585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8998e9d466a44874db6fed80acd8abab
+      internalID: -3973839956574696990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torse Ado.png
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 212
+        width: 164
+        height: 148
+      alignment: 9
+      pivot: {x: 0.5152439, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd042cf6bb220745907168aa584d533
+      internalID: -1901335869934289566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 637060480077014296
+  assetBundleName: 
+  assetBundleVariant: 

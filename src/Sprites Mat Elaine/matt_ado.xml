@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:460fe637f40a3991700da10dc2fafaea:7246e053ea23025aec591b5d2ac526ee:cb9ffc8ae44b08997159d1396bf62d3c$ -->
+<!--Format:
+n  => name of the SubTexture
+x  => SubTexture x pos in texture
+y  => SubTexture y pos in texture
+w  => SubTexture width (may be trimmed)
+h  => SubTexture height (may be trimmed)
+pX => x pos of the pivot point (relative to SubTexture width)
+pY => y pos of the pivot point (relative to SubTexture height)
+oX => SubTexture's x-corner offset (only available if trimmed)
+oY => SubTexture's y-corner offset (only available if trimmed)
+oW => SubTexture's original width (only available if trimmed)
+oH => SubTexture's original height (only available if trimmed)
+r => 'y' only set if SubTexture is rotated
+with polygon mode enabled:
+vertices   => points in SubTexture coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => SubTexture triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="matt_ado.png" width="418" height="446">
+    <SubTexture name="Bras droit ado.png" x="0" y="0" width="80" height="91"/>
+    <SubTexture name="Bras gauche ado.png" x="80" y="0" width="64" height="66"/>
+    <SubTexture name="Jambe Droite ado.png" x="144" y="0" width="61" height="62"/>
+    <SubTexture name="Jambe Gauche ado.png" x="205" y="0" width="68" height="69"/>
+    <SubTexture name="Main droite.png" x="273" y="0" width="60" height="59"/>
+    <SubTexture name="Main Gauche.png" x="333" y="0" width="61" height="60"/>
+    <SubTexture name="tete2.png" x="0" y="91" width="259" height="355"/>
+    <SubTexture name="Torse Ado.png" x="259" y="91" width="159" height="138"/>
+</TextureAtlas>
