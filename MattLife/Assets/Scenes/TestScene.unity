@@ -5966,7 +5966,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 111e25cb35862214d9b389af0ac387a0, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -11183,26 +11183,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4845143833248476879, guid: 278da4deca532ef428538013f6122124,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5554947572789986834, guid: 278da4deca532ef428538013f6122124,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2718661815673383125, guid: 278da4deca532ef428538013f6122124,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7080448657818890614, guid: 278da4deca532ef428538013f6122124,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2285168291886181774, guid: 278da4deca532ef428538013f6122124,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11266,6 +11246,26 @@ PrefabInstance:
     - target: {fileID: 1504857911, guid: 278da4deca532ef428538013f6122124, type: 3}
       propertyPath: playerLife
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718661815673383125, guid: 278da4deca532ef428538013f6122124,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4845143833248476879, guid: 278da4deca532ef428538013f6122124,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080448657818890614, guid: 278da4deca532ef428538013f6122124,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554947572789986834, guid: 278da4deca532ef428538013f6122124,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8284095663395164346, guid: 278da4deca532ef428538013f6122124,
         type: 3}

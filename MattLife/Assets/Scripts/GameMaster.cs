@@ -88,33 +88,34 @@ public class GameMaster : MonoBehaviour
 			Cursor.visible = false;
 		}
 
-		if (Input.GetButtonDown("Start"))
+		if (state == States.game)
 		{
-			if (state == States.game)
-			{
+			if(Input.GetButtonDown("Start"))
 				PauseGame();
-			}
 		}
-		if (Input.GetButtonDown("Cancel") || Input.GetButtonDown("Start"))
+		else
 		{
-			if (state == States.souvenirs)
+			if (Input.GetButtonDown("Cancel") || Input.GetButtonDown("Start"))
 			{
-				if (streamSouvenir.showTutorial)
+				if (state == States.souvenirs)
 				{
-					streamSouvenir.HideTutorial();
+					if (streamSouvenir.showTutorial)
+					{
+						streamSouvenir.HideTutorial();
+					}
+					else
+					{
+						streamSouvenir.StopStream();
+					}
 				}
-				else
+				else if (state == States.galerie)
 				{
-					streamSouvenir.StopStream();
+					CloseGalerie();
 				}
-			}
-			else if (state == States.galerie)
-			{
-				CloseGalerie();
-			}
-			else if (state == States.pause)
-			{
-				ResumeGame();
+				else if (state == States.pause)
+				{
+					ResumeGame();
+				}
 			}
 		}
     }
