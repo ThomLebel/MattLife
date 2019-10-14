@@ -20,17 +20,27 @@ public class Tutorial : MonoBehaviour
     {
 		cam = Camera.main;
 
-		tutorialOnScreen = Instantiate(tutorial, transform.position, Quaternion.identity);
-		tutorialOnScreen.transform.SetParent(canvas.transform);
-		tutorialTransform = tutorialOnScreen.GetComponent<RectTransform>();
-
-		tutorialTransform.position = cam.WorldToScreenPoint(new Vector3(transform.position.x, transform.position.y + yOffset, transform.position.z));
+		SetMessage(tutorial);
 	}
 
 	private void Update()
 	{
 		if (!isTriggered)
 			return;
+
+		tutorialTransform.position = cam.WorldToScreenPoint(new Vector3(transform.position.x, transform.position.y + yOffset, transform.position.z));
+	}
+
+	public void SetMessage(GameObject msg)
+	{
+		if (tutorialOnScreen != null)
+		{
+			Destroy(tutorialOnScreen);
+		}
+
+		tutorialOnScreen = Instantiate(msg, transform.position, Quaternion.identity);
+		tutorialOnScreen.transform.SetParent(canvas.transform);
+		tutorialTransform = tutorialOnScreen.GetComponent<RectTransform>();
 
 		tutorialTransform.position = cam.WorldToScreenPoint(new Vector3(transform.position.x, transform.position.y + yOffset, transform.position.z));
 	}

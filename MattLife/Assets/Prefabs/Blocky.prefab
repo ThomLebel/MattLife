@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -3242390003372614297, guid: 853d7a2ed202c7a42b8c40b9cfc1794d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -122,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.07}
+  m_Offset: {x: 0, y: 1.0037677}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -133,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 1
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1347637, y: 2.1261668}
+  m_Size: {x: 1.9286642, y: 1.9937024}
   m_EdgeRadius: 0
 --- !u!70 &6370949040041745576
 CapsuleCollider2D:
@@ -195,7 +195,7 @@ MonoBehaviour:
     m_Bits: 2048
   localWaypoints:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 5, z: 0}
+  - {x: 0, y: 6, z: 0}
   speed: 0
   cyclic: 0
   waitTime: 0
@@ -209,6 +209,7 @@ MonoBehaviour:
   activatingDistance: 10
   replaceWaitTime: 2
   slamWaitTime: 4
+  timeBeforeNextMove: 0
 --- !u!82 &2324713608135687878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -314,5 +315,5 @@ SortingGroup:
   m_GameObject: {fileID: 7051381856146899112}
   m_Enabled: 1
   m_SortingLayerID: -291169713
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 5
