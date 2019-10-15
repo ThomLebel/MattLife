@@ -98,7 +98,7 @@ public class EndGameTrigger : MonoBehaviour
 		else
 		{
 			Destroy(board);
-			//StartCoroutine("LevelTransition");
+			StartCoroutine("LevelTransition");
 		}
 	}
 

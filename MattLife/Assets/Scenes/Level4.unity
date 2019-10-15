@@ -1879,7 +1879,7 @@ MonoBehaviour:
   messages:
   - {fileID: 1317546640654054981, guid: 2f7e5b1700ea0644e82d9684a9504ed6, type: 3}
   - {fileID: 1317546640654054981, guid: 348afdddb75478f49a28846e4ea8a169, type: 3}
-  nextScene: TestScene
+  nextScene: EndingScene
   transitionTime: 1.5
   levelTransitionTimer: 3
   hideMessageTimer: 5
@@ -8803,6 +8803,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: galerie
+      value: 
+      objectReference: {fileID: 1660716203}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: photoPlayer
+      value: 
+      objectReference: {fileID: 1676930075}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5912a3c0e39b6fa4f83096278c9fc462,
+        type: 2}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8e196b6ca1b2ecf4b85db2831327b842,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402536fecc11a524bb2e0492e252a8a7, type: 3}
 --- !u!4 &381584938 stripped
@@ -12216,6 +12243,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: galerie
+      value: 
+      objectReference: {fileID: 1660716203}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: photoPlayer
+      value: 
+      objectReference: {fileID: 1676930075}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d2b32db4f45637644800e4621cf5c556,
+        type: 2}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d8ed62da9ea236479799d6eb2bdb632,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402536fecc11a524bb2e0492e252a8a7, type: 3}
 --- !u!4 &551216487 stripped
@@ -30632,6 +30686,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: cb891c61651c38b4192f6234b5faee89,
+        type: 2}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: souvenirs.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 73ef5599d09a1f64799c8abf757687be,
+        type: 2}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: galerie
+      value: 
+      objectReference: {fileID: 1660716203}
+    - target: {fileID: 2698147270194645676, guid: 402536fecc11a524bb2e0492e252a8a7,
+        type: 3}
+      propertyPath: photoPlayer
+      value: 
+      objectReference: {fileID: 1676930075}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 402536fecc11a524bb2e0492e252a8a7, type: 3}
 --- !u!4 &1512848918 stripped
