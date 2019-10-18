@@ -6,6 +6,6 @@ public class PlayerEnd : MonoBehaviour
 {
 	public void PlayWalkSound()
 	{
-		AudioManager.instance.PlaySound("PlayerWalk");
+		//AudioManager.instance.PlaySound("PlayerWalk");
 	}
 }
