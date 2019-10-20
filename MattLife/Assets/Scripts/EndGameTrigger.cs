@@ -106,7 +106,7 @@ public class EndGameTrigger : MonoBehaviour
 	{
 		yield return new WaitForSeconds(levelTransitionTimer);
 
-		AudioManager.instance.FadeToMusic(GameMaster.Instance.musicName, transitionTime);
+		AudioManager.instance.FadeAndDestroy(GameMaster.Instance.musicName, transitionTime);
 		StartCoroutine("OnCompleteScreenReavealStartAnimation");
 		screenRevealAnimator.SetTrigger("End");
 	}
@@ -115,13 +115,20 @@ public class EndGameTrigger : MonoBehaviour
 	{
 		yield return new WaitForSeconds(transitionTime + 0.2f);
 
+		SouvenirsHolder souvenirsHolder = GameObject.FindGameObjectWithTag("SouvenirsHolder").GetComponent<SouvenirsHolder>();
+		SaveSystem.SaveGame(playerScript, souvenirsHolder);
+
 		// TODO: Do something when animation did complete
 		LoadNextLevel();
 	}
 
 	public void LoadNextLevel()
 	{
-		SceneManager.LoadScene(nextScene);
+		Destroy(GameObject.FindGameObjectWithTag("SouvenirsHolder"));
+		Destroy(player);
+		Destroy(AudioManager.instance);
+
+		SceneManager.LoadSceneAsync(nextScene);
 	}
 
 	void OnDrawGizmos()

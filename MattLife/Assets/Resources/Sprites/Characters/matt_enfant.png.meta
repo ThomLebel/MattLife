@@ -29,6 +29,24 @@ TextureImporter:
   - first:
       213: 4270605601986477666
     second: Tete.png
+  - first:
+      213: 6714259498817721471
+    second: Bras Droit.png
+  - first:
+      213: 4613132325815057554
+    second: bras gauche.png
+  - first:
+      213: -8558212266160505596
+    second: Jambe Droite.png
+  - first:
+      213: -4390848584257046392
+    second: Jambe gauche.png
+  - first:
+      213: 8337832571592310848
+    second: Main droite.png
+  - first:
+      213: -5350743112327771030
+    second: main gauche.png
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,42 +155,42 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bras Gauche.png
+      name: Bras Droit.png
       rect:
         serializedVersion: 2
-        x: 55.79647
-        y: 319.28284
-        width: 81.00001
-        height: 90
+        x: 60
+        y: 323
+        width: 71
+        height: 81
       alignment: 9
-      pivot: {x: 0.30070287, y: 0.8471649}
+      pivot: {x: 0.30264637, y: 0.8377403}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67215ee50eeb65840ab9b0ae99f8ff38
+      spriteID: 8a76f813356a41e48ae0bd2a9460d6df
       internalID: 6714259498817721471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bras droit.png
+      name: bras gauche.png
       rect:
         serializedVersion: 2
-        x: 157.40266
-        y: 398.28357
-        width: 66
-        height: 64.71643
+        x: 162
+        y: 404
+        width: 58
+        height: 59
       alignment: 9
-      pivot: {x: 0.620258, y: 0.8844036}
+      pivot: {x: 0.6495548, y: 0.8505854}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e0da741cbc61b54bb22527bb7bd6d12
+      spriteID: afa8a78d7f0b52942953b6b8d99f56ee
       internalID: 4613132325815057554
       vertices: []
       indices: 
@@ -183,101 +201,101 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 197.06773
-        width: 149
-        height: 131.00002
-      alignment: 9
-      pivot: {x: 0.47651008, y: 0.4956661}
+        y: 201
+        width: 142
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a565abc11f42e04bab7b68fd9c801b4
+      spriteID: e5e04ca8499efaf4aaa8ce205eefd94a
       internalID: -3299932357052594116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jambe Gauche.png
+      name: Jambe Droite.png
       rect:
         serializedVersion: 2
-        x: 47.85069
-        y: 401.91754
-        width: 63.000004
-        height: 61.08246
+        x: 53
+        y: 408
+        width: 54
+        height: 55
       alignment: 9
-      pivot: {x: 0.4997152, y: 0.92119306}
+      pivot: {x: 0.5123562, y: 0.86395097}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d228b7143595ca43a642ce17de78ef8
+      spriteID: 806269eb3c1743f44af8b5bc8be371f5
       internalID: -8558212266160505596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jambe droite.png
+      name: Jambe gauche.png
       rect:
         serializedVersion: 2
         x: 0
-        y: 337.13068
-        width: 62.95407
-        height: 74
+        y: 343
+        width: 60
+        height: 61
       alignment: 9
-      pivot: {x: 0.49773577, y: 0.8341159}
+      pivot: {x: 0.544483, y: 0.8719062}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79f3e5a76dbb66f4183d531ccd4f5013
+      spriteID: f61baa061bf1dac488c6f9a3145d7d82
       internalID: -4390848584257046392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main gauche.png
+      name: Main droite.png
       rect:
         serializedVersion: 2
         x: 0
-        y: 404.7882
-        width: 57.59687
-        height: 58.211792
+        y: 411
+        width: 53
+        height: 52
       alignment: 9
-      pivot: {x: 0.26315427, y: 0.8513759}
+      pivot: {x: 0.27338904, y: 0.7822952}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d951e44b4d468b45a4ea7bdb32e2945
+      spriteID: 1e6b80232595967469f64e9fdc262926
       internalID: 8337832571592310848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main droite.png
+      name: main gauche.png
       rect:
         serializedVersion: 2
-        x: 102.36558
-        y: 403.31418
-        width: 63.999992
-        height: 59.68582
+        x: 107
+        y: 408
+        width: 55
+        height: 55
       alignment: 9
-      pivot: {x: 0.5959315, y: 0.82991487}
+      pivot: {x: 0.63344866, y: 0.7668973}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 114e5c729c01e5a419977152c3213b86
+      spriteID: 075ea945282ee03478a0c8627f7b2302
       internalID: -5350743112327771030
       vertices: []
       indices: 
@@ -288,17 +306,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3.9979095
-        width: 220
-        height: 203
+        y: 0
+        width: 232
+        height: 201
       alignment: 9
-      pivot: {x: 0.5303057, y: 0.04150737}
+      pivot: {x: 0.49137187, y: 0.085047804}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f97e41e521a9dad4cb35163e563a8a3c
+      spriteID: f2a2eb9440636e446bd6a05ec7a86be9
       internalID: 4270605601986477666
       vertices: []
       indices: 

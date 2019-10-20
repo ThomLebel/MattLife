@@ -12,6 +12,7 @@ public class GalerieScript : MonoBehaviour
 
 	public RectTransform selector;
 	public Scrollbar scrollBar;
+	[SerializeField]
 	private int currentSouvenirSelected = 0;
 	private float timeToNextSlide;
 	[SerializeField]
@@ -33,9 +34,27 @@ public class GalerieScript : MonoBehaviour
 				RevealSouvenirs(souvenir);
 			}
 		}
+
+		currentSouvenirSelected = 0;
+
 		RectTransform souvenirParent = souvenirsList[currentSouvenirSelected].transform.parent.GetComponent<RectTransform>();
 		selector.anchoredPosition = new Vector2(souvenirsList[currentSouvenirSelected].GetComponent<RectTransform>().anchoredPosition.x, souvenirParent.anchoredPosition.y);
+
+		float lineIndex = 1 - (Mathf.Floor(currentSouvenirSelected / 5) / 6);
+		scrollBar.value = lineIndex;
 	}
+
+	/*private void OnEnable()
+	{
+		currentSouvenirSelected = 0;
+
+		RectTransform souvenirParent = souvenirsList[currentSouvenirSelected].transform.parent.GetComponent<RectTransform>();
+		selector.anchoredPosition = new Vector2(souvenirsList[currentSouvenirSelected].GetComponent<RectTransform>().anchoredPosition.x, souvenirParent.anchoredPosition.y);
+
+		float lineIndex = 1 - (Mathf.Floor(currentSouvenirSelected / 5) / 6);
+		scrollBar.value = lineIndex;
+		Debug.Log(lineIndex);
+	}*/
 
 	private void Update()
 	{

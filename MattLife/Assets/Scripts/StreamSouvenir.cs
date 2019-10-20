@@ -95,6 +95,7 @@ public class StreamSouvenir : MonoBehaviour
 		AudioManager.instance.FadeToMusic(GameMaster.Instance.musicName, 1);
 		videoPlayer.clip = souvenir.video;
 		videoBackup.sprite = souvenir.photo;
+		videoBackup.preserveAspect = true;
 
 		souvenirProjector.gameObject.SetActive(true);
 		videoBackup.gameObject.SetActive(true);

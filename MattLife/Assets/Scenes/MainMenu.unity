@@ -3940,6 +3940,7 @@ MonoBehaviour:
   streamSouvenir: {fileID: 1029519548}
   selector: {fileID: 936832195}
   scrollBar: {fileID: 1572124437}
+  currentSouvenirSelected: 0
   timeBetweenSlide: 0.25
 --- !u!1 &1357380489
 GameObject:

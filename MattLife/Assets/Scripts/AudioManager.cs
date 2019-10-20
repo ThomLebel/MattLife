@@ -163,6 +163,29 @@ public class AudioManager : MonoBehaviour
 		FadeTo(m.source, time, volume);
 	}
 
+	 public void FadeAndDestroy(string name, float time)
+	{
+		Sound m = Array.Find(musics, music => music.name == name);
+		if (m == null)
+		{
+			Debug.Log("Sound : " + name + " not found !");
+			return;
+		}
+
+		iTween.AudioTo(gameObject, iTween.Hash(
+			"audiosource", m.source,
+			"volume", 0f,
+			"time", time,
+			"ignoretimescale", true,
+			"oncomplete", "Kill"
+		));
+	}
+
+	public void Kill()
+	{
+		Destroy(gameObject);
+	}
+
 	private void Play(AudioSource source)
 	{
 		source.Play();

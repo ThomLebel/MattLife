@@ -29,6 +29,24 @@ TextureImporter:
   - first:
       213: -1901335869934289566
     second: Torse Ado.png
+  - first:
+      213: -2040361922686745582
+    second: Bras droit ado.png
+  - first:
+      213: 1970104680351978081
+    second: Bras gauche ado.png
+  - first:
+      213: 5073825210234500390
+    second: Jambe Droite ado.png
+  - first:
+      213: 6103393669919194369
+    second: Jambe Gauche ado.png
+  - first:
+      213: 8337832571592310848
+    second: Main droite.png
+  - first:
+      213: -901931148486316789
+    second: Main Gauche.png
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -149,126 +167,126 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bras gauche.png
+      name: Bras droit ado.png
       rect:
         serializedVersion: 2
         x: 0
-        y: 351.18887
-        width: 84.6037
-        height: 94.81113
+        y: 355
+        width: 80
+        height: 91
       alignment: 9
-      pivot: {x: 0.25413924, y: 0.9336008}
+      pivot: {x: 0.2911081, y: 0.87434536}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3e3405b2a3011b40aa7782f19d6982a
+      spriteID: cb8adef61b0f7da489bb5e5d9a678aa9
       internalID: -2040361922686745582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bras droit.png
+      name: Bras gauche ado.png
       rect:
         serializedVersion: 2
-        x: 75.588135
-        y: 375.67258
-        width: 71
-        height: 70.32742
+        x: 80
+        y: 380
+        width: 64
+        height: 66
       alignment: 9
-      pivot: {x: 0.60587394, y: 0.93153274}
+      pivot: {x: 0.60042846, y: 0.8895416}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f17f3e0576c45d47a0203eff860458c
+      spriteID: c47db1ecdd3d092429e15f2e2063eb60
       internalID: 1970104680351978081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jambe Gauche.png
+      name: Jambe Droite ado.png
       rect:
         serializedVersion: 2
-        x: 139.06853
-        y: 380.18887
-        width: 71
-        height: 65.81113
+        x: 144
+        y: 384
+        width: 61
+        height: 62
       alignment: 9
-      pivot: {x: 0.47187653, y: 0.8966663}
+      pivot: {x: 0.46838978, y: 0.8939401}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78387b0e7f774a748a246319922249f6
+      spriteID: bfbcf5b67bd66ab4aa7d772eb44ebd25
       internalID: 5073825210234500390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jambe Droite.png
+      name: Jambe Gauche ado.png
       rect:
         serializedVersion: 2
-        x: 200.12035
-        y: 372.46487
-        width: 77.000015
-        height: 73.535126
+        x: 205
+        y: 377
+        width: 68
+        height: 69
       alignment: 9
-      pivot: {x: 0.5321811, y: 0.9316073}
+      pivot: {x: 0.49999955, y: 0.89123535}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c55b877787ba5774881e3d612431cbc9
+      spriteID: 79ffbee491e82844ea38b37067f0e0d7
       internalID: 6103393669919194369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main gauche.png
+      name: Main droite.png
       rect:
         serializedVersion: 2
-        x: 267.82712
-        y: 383.413
-        width: 70
-        height: 62.587006
+        x: 273
+        y: 387
+        width: 60
+        height: 59
       alignment: 9
-      pivot: {x: 0.3327724, y: 0.8741181}
+      pivot: {x: 0.32860157, y: 0.80503094}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde0c73ef233de5489be8b3cb26b0289
+      spriteID: b38ad0b85d7f8b94597acf698279a196
       internalID: 8337832571592310848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Droite.png
+      name: Main Gauche.png
       rect:
         serializedVersion: 2
-        x: 328
-        y: 381
-        width: 71
-        height: 65
+        x: 333
+        y: 386
+        width: 61
+        height: 60
       alignment: 9
-      pivot: {x: 0.59748256, y: 0.85913366}
+      pivot: {x: 0.5948311, y: 0.77852225}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d8d08b6b21e9f34bbfc987b6b3d8748
+      spriteID: 385fe154e329f3e438f86ca83bf36dc1
       internalID: -901931148486316789
       vertices: []
       indices: 
@@ -280,16 +298,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 269
-        height: 354.948
+        width: 259
+        height: 355
       alignment: 9
-      pivot: {x: 0.5363684, y: 0.28277585}
+      pivot: {x: 0.5496328, y: 0.2863555}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8998e9d466a44874db6fed80acd8abab
+      spriteID: 0e8d0b7d3434eab40905bcba11dc05dc
       internalID: -3973839956574696990
       vertices: []
       indices: 
@@ -299,18 +317,18 @@ TextureImporter:
       name: Torse Ado.png
       rect:
         serializedVersion: 2
-        x: 254
-        y: 212
-        width: 164
-        height: 148
-      alignment: 9
-      pivot: {x: 0.5152439, y: 0.5}
+        x: 259
+        y: 217
+        width: 159
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acd042cf6bb220745907168aa584d533
+      spriteID: b8f2077220eb6b741a89452f20bcbf86
       internalID: -1901335869934289566
       vertices: []
       indices: 
