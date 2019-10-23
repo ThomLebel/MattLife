@@ -17,6 +17,7 @@ public class StreamSouvenir : MonoBehaviour
 	public GameObject tutorial;
 
 	public bool showTutorial = false;
+	public bool isReady = false;
 
 	private bool sliderOn;
 	private Souvenir[] slider;
@@ -85,6 +86,7 @@ public class StreamSouvenir : MonoBehaviour
 	public void RevealAnimationComplete()
 	{
 		sliderOn = true;
+		isReady = true;
 		Time.timeScale = 0;
 	}
 
@@ -108,8 +110,8 @@ public class StreamSouvenir : MonoBehaviour
 
 	public void StartPhotoStream(Souvenir[] souvenirs, Vector3 blockPosition)
 	{
-		Sound m = Array.Find(AudioManager.instance.musics, music => music.name == GameMaster.Instance.musicName);
-		AudioManager.instance.FadeToMusic(m.name, 1, m.gamePausedVolume);
+		//Sound m = Array.Find(AudioManager.instance.musics, music => music.name == GameMaster.Instance.musicName);
+		//AudioManager.instance.FadeToMusic(m.name, 1, m.gamePausedVolume);
 		
 		Time.timeScale = 0;
 		slider = souvenirs;

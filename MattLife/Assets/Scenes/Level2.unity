@@ -798,21 +798,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -25
-      objectReference: {fileID: 0}
     - target: {fileID: 626205770184470942, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -827,6 +812,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -4467,6 +4467,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: timeBeforeNextMove
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4481,11 +4486,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: timeBeforeNextMove
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -4562,6 +4562,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: timeBeforeNextMove
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4576,11 +4581,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: timeBeforeNextMove
-      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -16350,6 +16350,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: timeBeforeNextMove
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -16364,11 +16369,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: timeBeforeNextMove
-      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -18284,6 +18284,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: timeBeforeNextMove
+      value: 1.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -18298,11 +18303,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: timeBeforeNextMove
-      value: 1.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -18379,6 +18379,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
+        type: 3}
+      propertyPath: timeBeforeNextMove
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3927857017238767885, guid: 98a506a18239c52458a1e21fa9bc210f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -18393,11 +18398,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626205770184470940, guid: 98a506a18239c52458a1e21fa9bc210f,
-        type: 3}
-      propertyPath: timeBeforeNextMove
-      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a506a18239c52458a1e21fa9bc210f, type: 3}
@@ -18662,6 +18662,7 @@ MonoBehaviour:
   streamSouvenir: {fileID: 1676930075}
   selector: {fileID: 1429704666}
   scrollBar: {fileID: 1444714642}
+  currentSouvenirSelected: 0
   timeBetweenSlide: 0.25
 --- !u!1 &1668840639
 GameObject:
@@ -18901,6 +18902,7 @@ MonoBehaviour:
   rightButton: {fileID: 1074258179}
   tutorial: {fileID: 0}
   showTutorial: 0
+  isReady: 0
   timeBetweenSlide: 0.25
 --- !u!82 &1676930076
 AudioSource:
@@ -25699,6 +25701,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1965146036949629531, guid: 2a2ba5e0a5da14d49b03d235e084f1f1,
+        type: 3}
+      propertyPath: tutorial
+      value: 
+      objectReference: {fileID: 1317546640654054981, guid: 891b005de823c7d4fa2b3ad81a815b2f,
+        type: 3}
+    - target: {fileID: 1965146036949629531, guid: 2a2ba5e0a5da14d49b03d235e084f1f1,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 500904687}
     - target: {fileID: 1965146036949629525, guid: 2a2ba5e0a5da14d49b03d235e084f1f1,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -25714,17 +25727,6 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1965146036949629531, guid: 2a2ba5e0a5da14d49b03d235e084f1f1,
-        type: 3}
-      propertyPath: tutorial
-      value: 
-      objectReference: {fileID: 1317546640654054981, guid: 891b005de823c7d4fa2b3ad81a815b2f,
-        type: 3}
-    - target: {fileID: 1965146036949629531, guid: 2a2ba5e0a5da14d49b03d235e084f1f1,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 500904687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a2ba5e0a5da14d49b03d235e084f1f1, type: 3}
 --- !u!1 &1897439036 stripped

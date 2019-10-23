@@ -103,7 +103,7 @@ public class GameMaster : MonoBehaviour
 					{
 						streamSouvenir.HideTutorial();
 					}
-					else
+					else if(streamSouvenir.isReady)
 					{
 						streamSouvenir.StopStream();
 					}

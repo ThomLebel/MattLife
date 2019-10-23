@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 
-  playerLife: 5
+  playerLife: 10
   playerScore: 0
   playerGold: 0
   moveSpeed: 6
