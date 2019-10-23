@@ -156,10 +156,18 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
+  - name: LifeUp
+    clip: {fileID: 8300000, guid: 58d9aef7bb918b14cb8b2e98d34b4b10, type: 3}
+    volume: 0.25
+    pitch: 1.5
+    gamePausedVolume: 0.15
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
   musics:
   - name: mainMenuMusic
     clip: {fileID: 8300000, guid: 7fca0249ddb41914b9d6751954f2cca4, type: 3}
-    volume: 0.25
+    volume: 0.6
     pitch: 1
     gamePausedVolume: 0.15
     loop: 1
@@ -167,39 +175,31 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: musicLevel1
     clip: {fileID: 8300000, guid: ebe259abd1fdad74a81b842700cb134d, type: 3}
-    volume: 0.25
+    volume: 0.6
     pitch: 1
-    gamePausedVolume: 0.05
+    gamePausedVolume: 0.15
     loop: 1
     playOnAwake: 0
     source: {fileID: 0}
   - name: musicLevel2
     clip: {fileID: 8300000, guid: 1fb147bfbc8445449b7376ce0455aea0, type: 3}
-    volume: 0.25
+    volume: 0.6
     pitch: 1
-    gamePausedVolume: 0.05
+    gamePausedVolume: 0.15
     loop: 1
     playOnAwake: 0
     source: {fileID: 0}
   - name: musicLevel3
     clip: {fileID: 8300000, guid: acc04092c9512ed4f83cc9e45829548e, type: 3}
-    volume: 0.25
+    volume: 0.6
     pitch: 1
-    gamePausedVolume: 0.05
+    gamePausedVolume: 0.15
     loop: 1
     playOnAwake: 0
     source: {fileID: 0}
   - name: musicLevel4
     clip: {fileID: 8300000, guid: 235ecb75c5a44284c936bb63645af16d, type: 3}
-    volume: 0.25
-    pitch: 1
-    gamePausedVolume: 0.05
-    loop: 1
-    playOnAwake: 0
-    source: {fileID: 0}
-  - name: endMusic
-    clip: {fileID: 8300000, guid: de026935b70e28849afd673fb695cad0, type: 3}
-    volume: 0.25
+    volume: 0.6
     pitch: 1
     gamePausedVolume: 0.15
     loop: 1

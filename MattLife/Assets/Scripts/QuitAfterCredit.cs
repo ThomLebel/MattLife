@@ -6,6 +6,7 @@ public class QuitAfterCredit : MonoBehaviour
 {
 	private void OnEnable()
 	{
+		Debug.Log("Quit !");
 		Application.Quit();
 	}
 }

@@ -30,6 +30,7 @@ ScriptsOnlyBuild:
     - EndLevel
     - Enemy
     - EnemySpawner
+    - Flag
     - FlyingEnemy
     - GalerieScript
     - GameMaster
@@ -71,7 +72,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
+    - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
@@ -86,8 +89,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -435,6 +440,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12318}
     - Class: 114
       Script: {instanceID: 12372}
+    - Class: 114
+      Script: {instanceID: 45376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -586,6 +593,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12318}
     - Class: 114
       Script: {instanceID: 12372}
+    - Class: 114
+      Script: {instanceID: 45376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -741,6 +750,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12318}
     - Class: 114
       Script: {instanceID: 12372}
+    - Class: 114
+      Script: {instanceID: 45376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -894,6 +905,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12350}
     - Class: 114
       Script: {instanceID: 12372}
+    - Class: 114
+      Script: {instanceID: 45376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1918,7 +1931,7 @@ ScriptsOnlyBuild:
     className: MenuSelector
   - hash:
       serializedVersion: 2
-      Hash: e200afa51b6d6fdc3b50d9dedba7576d
+      Hash: 1e7c70fb3b2141514d66388563df8948
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -2342,6 +2355,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 86316f3e2ac7d17d3dfef2ce09569372
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Flag
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -2351,4 +2370,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level4.unity
   - Assets/Scenes/EndingScene.unity
   - Assets/Scenes/CreditScene.unity
-  playerPath: D:/Projects/MattLife/MattLife/Builds/Windows/MattLife/MattLife.exe
+  playerPath: D:/Projects/MattLife/MattLife/Build/Windows/MattLife.exe

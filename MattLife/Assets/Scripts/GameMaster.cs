@@ -196,6 +196,8 @@ public class GameMaster : MonoBehaviour
 		{
 			playerScript.playerGold = 0;
 			UpdateLife(1);
+			AudioManager.instance.PlaySound("LifeUp");
+			playerScript.LifeUp();
 		}
 		string zero = "";
 		if (playerScript.playerGold < 10)

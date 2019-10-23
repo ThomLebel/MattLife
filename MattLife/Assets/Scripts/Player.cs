@@ -79,6 +79,8 @@ public class Player : MonoBehaviour
 	private Vector2 directionalInput;
 	private Controller2D controller;
 	private Animator animator;
+	[SerializeField]
+	private Animator lifeAnimator;
 
 	private void Awake()
 	{
@@ -375,6 +377,11 @@ public class Player : MonoBehaviour
 
 		bounceOnMonster = BounceOnMonster(bounceTimerWindow);
 		StartCoroutine(bounceOnMonster);
+	}
+
+	public void LifeUp()
+	{
+		lifeAnimator.SetTrigger("LifeUp");
 	}
 
 	public void Hit()
